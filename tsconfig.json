@@ -3,24 +3,17 @@
     "baseUrl": ".",
     "declaration": true,
     "declarationDir": "types",
-    "lib": [
-      "ESNext"
-    ],
+    "lib": ["ESNext"],
     "module": "ESNext",
     "moduleResolution": "node",
     "outDir": "lib",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"]
     },
     "rootDir": ".",
     "skipLibCheck": true,
     "sourceMap": false,
     "target": "ESNext"
   },
-  "exclude": [
-    "jest.config.ts",
-    "types"
-  ]
+  "exclude": ["jest.config.ts", "types"]
 }

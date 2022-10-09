@@ -9,7 +9,7 @@ describe('color test cases', () => {
       [0, 0, 255, '#0000ff'],
       [0, 0, 0, '#000000'],
       [2, 2, 2, '#020202'],
-    ])('rgb(%d, %d, %d) is $s', (r, g , b, color) => {
+    ])('rgb(%d, %d, %d) is $s', (r, g, b, color) => {
       expect(rgbToHex(r, g, b)).toEqual(color)
     })
   })
